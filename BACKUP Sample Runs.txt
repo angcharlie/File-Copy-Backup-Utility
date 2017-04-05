@@ -1,0 +1,241 @@
+Microsoft Windows [Version 6.3.9600]
+(c) 2013 Microsoft Corporation. All rights reserved.
+
+C:\Users\Charlie>cd Documents
+
+C:\Users\Charlie\Documents>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 54EE-16AC
+
+ Directory of C:\Users\Charlie\Documents
+
+04/14/16  09:34 PM    <DIR>          .
+04/14/16  09:34 PM    <DIR>          ..
+04/14/16  04:53 PM            32,768 FileCopyBackup.bak
+04/14/16  09:18 PM            33,280 FileCopyBackup.exe
+04/14/16  08:17 PM             1,655 lab1dump.txt
+04/14/16  08:07 PM               298 lab1test.bak
+04/01/16  08:44 PM               298 lab1test.txt
+04/09/16  05:03 PM             1,655 result.txt
+04/09/16  05:03 PM             1,655 resultcopy
+09/29/15  09:25 PM    <DIR>          Visual Studio 2013
+04/14/16  08:09 PM             1,655 yeehaw.org
+               8 File(s)         73,264 bytes
+               3 Dir(s)  95,536,427,008 bytes free
+
+C:\Users\Charlie\Documents>FileCopyBackup
+
+Source file must be specified.
+
+C:\Users\Charlie\Documents>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 54EE-16AC
+
+ Directory of C:\Users\Charlie\Documents
+
+04/14/16  09:34 PM    <DIR>          .
+04/14/16  09:34 PM    <DIR>          ..
+04/14/16  04:53 PM            32,768 FileCopyBackup.bak
+04/14/16  09:18 PM            33,280 FileCopyBackup.exe
+04/14/16  08:17 PM             1,655 lab1dump.txt
+04/14/16  08:07 PM               298 lab1test.bak
+04/01/16  08:44 PM               298 lab1test.txt
+04/09/16  05:03 PM             1,655 result.txt
+04/09/16  05:03 PM             1,655 resultcopy
+09/29/15  09:25 PM    <DIR>          Visual Studio 2013
+04/14/16  08:09 PM             1,655 yeehaw.org
+               8 File(s)         73,264 bytes
+               3 Dir(s)  95,536,427,008 bytes free
+
+C:\Users\Charlie\Documents>FileCopyBackup result.txt result.org
+Copying result.txt into result.org.
+
+C:\Users\Charlie\Documents>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 54EE-16AC
+
+ Directory of C:\Users\Charlie\Documents
+
+04/14/16  09:37 PM    <DIR>          .
+04/14/16  09:37 PM    <DIR>          ..
+04/14/16  04:53 PM            32,768 FileCopyBackup.bak
+04/14/16  09:18 PM            33,280 FileCopyBackup.exe
+04/14/16  08:17 PM             1,655 lab1dump.txt
+04/14/16  08:07 PM               298 lab1test.bak
+04/01/16  08:44 PM               298 lab1test.txt
+04/14/16  09:37 PM             1,655 result.org
+04/09/16  05:03 PM             1,655 result.txt
+04/09/16  05:03 PM             1,655 resultcopy
+09/29/15  09:25 PM    <DIR>          Visual Studio 2013
+04/14/16  08:09 PM             1,655 yeehaw.org
+               9 File(s)         74,919 bytes
+               3 Dir(s)  95,536,422,912 bytes free
+
+C:\Users\Charlie\Documents>FileCopyBackup result.txt
+Copying result.txt into result.bak.
+
+C:\Users\Charlie\Documents>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 54EE-16AC
+
+ Directory of C:\Users\Charlie\Documents
+
+04/14/16  09:38 PM    <DIR>          .
+04/14/16  09:38 PM    <DIR>          ..
+04/14/16  04:53 PM            32,768 FileCopyBackup.bak
+04/14/16  09:18 PM            33,280 FileCopyBackup.exe
+04/14/16  08:17 PM             1,655 lab1dump.txt
+04/14/16  08:07 PM               298 lab1test.bak
+04/01/16  08:44 PM               298 lab1test.txt
+04/14/16  09:38 PM             1,655 result.bak
+04/14/16  09:37 PM             1,655 result.org
+04/09/16  05:03 PM             1,655 result.txt
+04/09/16  05:03 PM             1,655 resultcopy
+09/29/15  09:25 PM    <DIR>          Visual Studio 2013
+04/14/16  08:09 PM             1,655 yeehaw.org
+              10 File(s)         76,574 bytes
+               3 Dir(s)  95,536,418,816 bytes free
+
+C:\Users\Charlie\Documents>FileCopyBackup resultcopy
+Copying resultcopy into resultcopy.bak.
+
+C:\Users\Charlie\Documents>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 54EE-16AC
+
+ Directory of C:\Users\Charlie\Documents
+
+04/14/16  09:38 PM    <DIR>          .
+04/14/16  09:38 PM    <DIR>          ..
+04/14/16  04:53 PM            32,768 FileCopyBackup.bak
+04/14/16  09:18 PM            33,280 FileCopyBackup.exe
+04/14/16  08:17 PM             1,655 lab1dump.txt
+04/14/16  08:07 PM               298 lab1test.bak
+04/01/16  08:44 PM               298 lab1test.txt
+04/14/16  09:38 PM             1,655 result.bak
+04/14/16  09:37 PM             1,655 result.org
+04/09/16  05:03 PM             1,655 result.txt
+04/09/16  05:03 PM             1,655 resultcopy
+04/14/16  09:38 PM             1,655 resultcopy.bak
+09/29/15  09:25 PM    <DIR>          Visual Studio 2013
+04/14/16  08:09 PM             1,655 yeehaw.org
+              11 File(s)         78,229 bytes
+               3 Dir(s)  95,536,414,720 bytes free
+
+C:\Users\Charlie\Documents>FileCopyBackup C:\Users\Charlie\LabTwo\pleasework.org
+ C:\Users\Charlie\Documents\pleasework.org
+Copying C:\Users\Charlie\LabTwo\pleasework.org into C:\Users\Charlie\Documents\p
+leasework.org.
+
+C:\Users\Charlie\Documents>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 54EE-16AC
+
+ Directory of C:\Users\Charlie\Documents
+
+04/14/16  09:41 PM    <DIR>          .
+04/14/16  09:41 PM    <DIR>          ..
+04/14/16  04:53 PM            32,768 FileCopyBackup.bak
+04/14/16  09:18 PM            33,280 FileCopyBackup.exe
+04/14/16  08:17 PM             1,655 lab1dump.txt
+04/14/16  08:07 PM               298 lab1test.bak
+04/01/16  08:44 PM               298 lab1test.txt
+04/14/16  09:41 PM             1,655 pleasework.org
+04/14/16  09:38 PM             1,655 result.bak
+04/14/16  09:37 PM             1,655 result.org
+04/09/16  05:03 PM             1,655 result.txt
+04/09/16  05:03 PM             1,655 resultcopy
+04/14/16  09:38 PM             1,655 resultcopy.bak
+09/29/15  09:25 PM    <DIR>          Visual Studio 2013
+04/14/16  08:09 PM             1,655 yeehaw.org
+              12 File(s)         79,884 bytes
+               3 Dir(s)  95,536,418,816 bytes free
+
+C:\Users\Charlie\Documents>FileCopyBackup C:\Users\Charlie\Documents\yeehaw.org
+Copying C:\Users\Charlie\Documents\yeehaw.org into C:\Users\Charlie\Documents\ye
+ehaw.bak.
+
+C:\Users\Charlie\Documents>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 54EE-16AC
+
+ Directory of C:\Users\Charlie\Documents
+
+04/14/16  09:42 PM    <DIR>          .
+04/14/16  09:42 PM    <DIR>          ..
+04/14/16  04:53 PM            32,768 FileCopyBackup.bak
+04/14/16  09:18 PM            33,280 FileCopyBackup.exe
+04/14/16  08:17 PM             1,655 lab1dump.txt
+04/14/16  08:07 PM               298 lab1test.bak
+04/01/16  08:44 PM               298 lab1test.txt
+04/14/16  09:41 PM             1,655 pleasework.org
+04/14/16  09:38 PM             1,655 result.bak
+04/14/16  09:37 PM             1,655 result.org
+04/09/16  05:03 PM             1,655 result.txt
+04/09/16  05:03 PM             1,655 resultcopy
+04/14/16  09:38 PM             1,655 resultcopy.bak
+09/29/15  09:25 PM    <DIR>          Visual Studio 2013
+04/14/16  09:42 PM             1,655 yeehaw.bak
+04/14/16  08:09 PM             1,655 yeehaw.org
+              13 File(s)         81,539 bytes
+               3 Dir(s)  95,536,414,720 bytes free
+
+C:\Users\Charlie\Documents>FileCopyBackup C:\Users\Charlie\Documents\resultcopy
+Copying C:\Users\Charlie\Documents\resultcopy into C:\Users\Charlie\Documents\re
+sultcopy.bak.
+
+C:\Users\Charlie\Documents>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 54EE-16AC
+
+ Directory of C:\Users\Charlie\Documents
+
+04/14/16  09:42 PM    <DIR>          .
+04/14/16  09:42 PM    <DIR>          ..
+04/14/16  04:53 PM            32,768 FileCopyBackup.bak
+04/14/16  09:18 PM            33,280 FileCopyBackup.exe
+04/14/16  08:17 PM             1,655 lab1dump.txt
+04/14/16  08:07 PM               298 lab1test.bak
+04/01/16  08:44 PM               298 lab1test.txt
+04/14/16  09:41 PM             1,655 pleasework.org
+04/14/16  09:38 PM             1,655 result.bak
+04/14/16  09:37 PM             1,655 result.org
+04/09/16  05:03 PM             1,655 result.txt
+04/09/16  05:03 PM             1,655 resultcopy
+04/14/16  09:43 PM             1,655 resultcopy.bak
+09/29/15  09:25 PM    <DIR>          Visual Studio 2013
+04/14/16  09:42 PM             1,655 yeehaw.bak
+04/14/16  08:09 PM             1,655 yeehaw.org
+              13 File(s)         81,539 bytes
+               3 Dir(s)  95,536,414,720 bytes free
+
+C:\Users\Charlie\Documents>FileCopyBackup "pleasework.org"
+Copying pleasework.org into pleasework.bak.
+
+C:\Users\Charlie\Documents>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 54EE-16AC
+
+ Directory of C:\Users\Charlie\Documents
+
+04/14/16  09:44 PM    <DIR>          .
+04/14/16  09:44 PM    <DIR>          ..
+04/14/16  04:53 PM            32,768 FileCopyBackup.bak
+04/14/16  09:18 PM            33,280 FileCopyBackup.exe
+04/14/16  08:17 PM             1,655 lab1dump.txt
+04/14/16  08:07 PM               298 lab1test.bak
+04/01/16  08:44 PM               298 lab1test.txt
+04/14/16  09:44 PM             1,655 pleasework.bak
+04/14/16  09:41 PM             1,655 pleasework.org
+04/14/16  09:38 PM             1,655 result.bak
+04/14/16  09:37 PM             1,655 result.org
+04/09/16  05:03 PM             1,655 result.txt
+04/09/16  05:03 PM             1,655 resultcopy
+04/14/16  09:43 PM             1,655 resultcopy.bak
+09/29/15  09:25 PM    <DIR>          Visual Studio 2013
+04/14/16  09:42 PM             1,655 yeehaw.bak
+04/14/16  08:09 PM             1,655 yeehaw.org
+              14 File(s)         83,194 bytes
+               3 Dir(s)  95,536,410,624 bytes free
+
+C:\Users\Charlie\Documents>
